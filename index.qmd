@@ -2,4 +2,8 @@
 title: "Mallard Duck Movement"
 ---
 
-Welcome! This site explores where mallard ducks go and when they move.
+Lake Constance sits where Germany, Switzerland, and Austria meet, at roughly 47.5°N, 9.5°E. Between 2007 and 2017, researchers fitted 52 mallards from the lake with GPS collars and recorded more than 83,000 location fixes. The data comes from Korner, Sauter, Fiedler and Jenni (2016), shared openly through Movebank.
+
+Most of the ducks stayed close to home, but not all of them. A handful traveled several hundred kilometers northeast, reaching as far as Poland and Hungary, which shows that mallards are a partially migratory species. Movement also changes with the seasons: ducks spend most of their time resting on the water, and they fly the most in summer, when speeds peak in July and stay high through September.
+
+Use the navbar to explore. The **Map** page shows every GPS fix and flight path across central Europe, and the **Seasons** page shows how duck speeds rise and fall month by month.
