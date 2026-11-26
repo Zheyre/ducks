@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Lake Constance sits where Germany, Switzerland, and Austria meet, at roughly 47.5°N, 9.5°E. Between 2007 and 2017, researchers fitted 52 mallards from the lake with GPS collars and recorded more than 83,000 location fixes. The data comes from Korner, Sauter, Fiedler and Jenni (2016), shared openly through Movebank.\nMost of the ducks stayed close to home, but not all of them. A handful traveled several hundred kilometers northeast, reaching as far as Poland and Hungary, which shows that mallards are a partially migratory species. Movement also changes with the seasons: ducks spend most of their time resting on the water, and they fly the most in summer, when speeds peak in July and stay high through September.\nUse the navbar to explore. The Map page shows every GPS fix and flight path across central Europe, and the Seasons page shows how duck speeds rise and fall month by month."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "# A tibble: 10 × 7\n   timestamp             lat  long speed heading duck_id      taxon             \n   &lt;dttm&gt;              &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;             \n 1 2007-11-23 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 2 2007-11-24 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 3 2007-11-26 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 4 2007-11-26 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 5 2007-11-27 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 6 2007-11-27 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 7 2007-11-23 09:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n 8 2007-11-24 09:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n 9 2007-11-24 17:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n10 2007-11-25 05:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n\n\n\n\n# A tibble: 52 × 2\n   duck_id                        n\n   &lt;chr&gt;                      &lt;int&gt;\n 1 2351 - Radolfzell JC 72052 20169\n 2 1806 - Radolfzell JC70792  10139\n 3 2318 - Radolfzell JC 72053  9522\n 4 2312 - Radolfzell JC 72051  7163\n 5 2497 - Radolfzell JC74415   4835\n 6 2339 - Radolfzell JC 72018  4645\n 7 2495 - Radolfzell JC74406   3030\n 8 2501 - Radolfzell JC74418   2861\n 9 2502 - Radolfzell JC74417   2715\n10 2489 - Radolfzell JC74412   2514\n# ℹ 42 more rows\n\n\n\n\n# A tibble: 1 × 4\n  lat_min lat_max long_min long_max\n    &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n1    47.3    53.9     7.83     23.6"
+  },
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Seasons",
+    "section": "",
+    "text": "# A tibble: 12 × 2\n   month     n\n   &lt;ord&gt; &lt;int&gt;\n 1 Jan    3266\n 2 Feb    4960\n 3 Mar    7524\n 4 Apr    6369\n 5 May    3423\n 6 Jun    2842\n 7 Jul    5748\n 8 Aug    9659\n 9 Sep   20977\n10 Oct    9890\n11 Nov    4825\n12 Dec    3796\n\n\n\n\n# A tibble: 1 × 4\n  min_speed median_speed mean_speed max_speed\n      &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;\n1         0         0.22      0.416      127."
+  }
+]
